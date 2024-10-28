@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#registerForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #b9d3f5;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.formElement{
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.textInput {
+  width: 100%;
+  margin-top: 5px;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.ring {
+  display: inline-block; /* Чтобы элемент не занимал всю ширину */
+  width: 30px; /* Ширина кольца */
+  height: 30px; /* Высота кольца */
+  border: 2px solid black; /* Черная рамка */
+  border-radius: 50%; /* Делает элемент круглым */
+  text-align: center; /* Центрирует текст внутри */
+  line-height: 30px; /* Центрирует символ вертикально */
+  font-size: 20px; /* Размер символа */
+  
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;  
+  width: 10px;
+  font-size: 20px; 
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+   
+
+  /* Position the tooltip */
+  position: absolute;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.registerButton {
+  width: 200px;
+  height: 40px;
+  background-color: #45a049;
+  border-radius: 5px;
+  color: white;
+  margin: 20px;
+  border: none;
+  align-self:center;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  background-color: green;
+}

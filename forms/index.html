@@ -71,18 +71,5 @@
     <button class="registerButton">Оформити замовлення</button>
   </form>
 </div>
-  <script>
-    const registerForm = document.getElementById("registerForm");
-
-    registerForm.addEventListener("submit", (formData) => {
-      formData.preventDefault();
-
-      const registerFormData = new FormData(registerForm);
-
-      for (let [key, value] of registerFormData.entries()) {
-        console.log(`${key}: ${value}`);
-      }
-    })
-  </script>
 </body>
 </html>
