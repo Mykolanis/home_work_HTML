@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(34, 71%, 73%);
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0;
+    background-color: burlywood;
+}
+
+.productsContainer{
+    display: grid;
+    background-color: black;
+    gap: 1px 1px;
+    border: 2px solid black;
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: 1fr;
+    
+   
+}
+    
+.productContainer{
+    display: grid;
+    background-color: burlywood;
+    row-gap:  50px;
+    column-gap: 50px;    
+    grid-template-columns: 200px 100px auto;
+    grid-template-rows: 1fr;
+    padding-top: 30px;
+
+}
+
+
+.productInfo nameInfo{
+    display: grid;    
+    background-color: white; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.infoName{
+    
+}
+
+.infoName{
+    font-size: 20px;   
+}
+
+.infoValue{
+    font-size: 22px;
+}
+
+.productInfo description{
+    font-size: 20px;
+}
+
+footer{
+    margin: 30px;   
+}
+
+.helpLinks{
+    font-size: 20px;
+
+}
