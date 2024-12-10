@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color:#000000;
+    margin: auto;
+}
+
+.titlebg{	
+    width: 100%;
+    height: 100px;
+}
+
+.title{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-inline-start: 20px;	
+}
+
+.title1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#fdc901;
+	
+}
+
+.title2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color:#FFFFFF;	
+}
+
+.title3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	color:#3987b3;	
+	padding: 10px;
+}
+
+.title4_button{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;	
+	font-weight: bold;	
+	width: 210px;
+	height: 40px;		
+	border-radius: 5px;
+	color: white;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+}	
+
+.title4_button:hover{
+	background-color: rgb(38, 58, 235);
+}
+
+#hrline{
+    width: 100%;
+    height: 5px;
+    background-color:#787878;
+    }
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.menu_button1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding-inline-start: 20px;
+}
+
+.menu_button2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.menu_button3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.menu_button4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.menu_button5{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding-inline-end: 20px;
+}
+
+.main{
+		
+	background-image: url(images/bg1.webp);
+	background-repeat:no-repeat;
+    background-size: cover;
+	background-position: center;	
+}
+
+.bg{
+	background-image: url(images/sum_wh1.jpg);
+	background-repeat:no-repeat;
+    background-size: cover;	
+}
+
+.bg_left{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg_feetback{
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.Name{
+	font: bold;
+}
+
+.form_conteiner_bg{
+	background-image: url(images/bg.jpg);
+	background-repeat:no-repeat;
+    background-size: cover;
+	margin-top: 0px;
+}
+
+.container_footer{
+	background-color: #3b3939;
+}
+
+.btn{
+	color: white;
+}
