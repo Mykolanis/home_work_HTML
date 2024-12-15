@@ -14,7 +14,7 @@
 .form_conteiner_small{
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding-right: 0px;
 }
 
 .form_name{

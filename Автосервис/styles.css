@@ -126,7 +126,8 @@
 .bg{
 	background-image: url(images/sum_wh1.jpg);
 	background-repeat:no-repeat;
-    background-size: cover;	
+    background-size: cover;
+	margin-right: 10px;	
 }
 
 .bg_left{
@@ -155,4 +156,11 @@
 
 .btn{
 	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+     {
+        padding-left: 3rem;
+    
+  }
 }
