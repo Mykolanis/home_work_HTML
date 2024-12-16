@@ -1,0 +1,38 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.main {
+    background-image: url(images/main-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-top {
+	background-image: url(images/tires.jpg);
+	background-size: cover;
+	/* background-position: center; */
+	background-repeat: no-repeat;
+    /* height: 245px; */
+    height: 22rem;
+    margin-right: 10px;
+}
+
+.bg-box {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-main {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-footer {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
